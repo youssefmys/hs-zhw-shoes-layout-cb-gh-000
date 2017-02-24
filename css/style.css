@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -186,6 +186,8 @@ iframe {
 	/********** Logo **********/
 
 	#logo {
+		width: 100% ;
+		margin-left: 0px ;
 		padding: 85px 0 25px;
 		/* gradient */
 		background: rgb(229,229,229); /* Old browsers */
